@@ -129,7 +129,7 @@ const goToTop = () => {
           <h3 class="text-3xl text-center py-1 font-bold">Skills</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-4"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
             >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
@@ -137,17 +137,17 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">HTML</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Provident tempore debitis tenetur possimus, at sint? Velit
-                  perferendis alias exercitationem aperiam provident ducimus
-                  corrupti. Ipsum minima voluptatem dolor! Similique, doloremque
-                  exercitationem.
-                </p>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-4"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
@@ -155,17 +155,16 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">CSS</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Provident tempore debitis tenetur possimus, at sint? Velit
-                  perferendis alias exercitationem aperiam provident ducimus
-                  corrupti. Ipsum minima voluptatem dolor! Similique, doloremque
-                  exercitationem.
-                </p>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-4"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
@@ -173,17 +172,16 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">JavaScript</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Provident tempore debitis tenetur possimus, at sint? Velit
-                  perferendis alias exercitationem aperiam provident ducimus
-                  corrupti. Ipsum minima voluptatem dolor! Similique, doloremque
-                  exercitationem.
-                </p>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-4"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
@@ -191,17 +189,16 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">VueJS</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Provident tempore debitis tenetur possimus, at sint? Velit
-                  perferendis alias exercitationem aperiam provident ducimus
-                  corrupti. Ipsum minima voluptatem dolor! Similique, doloremque
-                  exercitationem.
-                </p>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-4"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/node-js-3550841-2970426.png"
@@ -209,17 +206,16 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">NodeJS</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Provident tempore debitis tenetur possimus, at sint? Velit
-                  perferendis alias exercitationem aperiam provident ducimus
-                  corrupti. Ipsum minima voluptatem dolor! Similique, doloremque
-                  exercitationem.
-                </p>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-4"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
@@ -227,22 +223,36 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">Figma</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Provident tempore debitis tenetur possimus, at sint? Velit
-                  perferendis alias exercitationem aperiam provident ducimus
-                  corrupti. Ipsum minima voluptatem dolor! Similique, doloremque
-                  exercitationem.
-                </p>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+            >
+              <img
+                src="https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png"
+                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
+              />
+              <div>
+                <h2 class="font-bold text-2xl mb-3">Flutter</h2>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="mt-10">
+      <section class="mt-16">
         <div class="text-center lg:flex lg:justify-around">
           <div>
-            <h1 class="text-2xl font-bold">Education</h1>
+            <h1 class="text-3xl mb-6 font-bold">Education</h1>
             <div
               class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4"
             >
@@ -265,7 +275,7 @@ const goToTop = () => {
             </div>
           </div>
           <div>
-            <h1 class="text-2xl font-bold">Experience</h1>
+            <h1 class="text-3xl mb-6 mt-12 md:mt-0 font-bold">Experience</h1>
             <div
               class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4"
             >
