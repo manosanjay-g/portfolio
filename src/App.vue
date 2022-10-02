@@ -35,7 +35,7 @@ const goToTop = () => {
 <template>
   <div :class="{ dark: darkMode }">
     <main
-      class="bg-white px-10 md:px-20 lg:px-40 pb-8 dark:bg-gray-900 transition-colors duration-200 text-black dark:text-white"
+      class="bg-white px-10 md:px-20 lg:px-40 pb-8 dark:bg-gray-900 transition-colors duration-350 text-black dark:text-white"
     >
       <section>
         <!-- Navbar -->
