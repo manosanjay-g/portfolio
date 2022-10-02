@@ -78,13 +78,7 @@ const goToTop = () => {
             id="typewriter"
             class="text-md flex justify-center items-center py-5 tracking-widest leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
           >
-            hello world
-            <img
-              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/waving-hand_1f44b.png"
-              class="w-7 h-7 mx-3"
-              alt=""
-              srcset=""
-            />
+            hello world 👋
           </p>
         </div>
         <div class="flex justify-center my-4">
