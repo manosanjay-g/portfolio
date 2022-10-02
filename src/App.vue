@@ -76,7 +76,7 @@ const goToTop = () => {
           </h3>
           <p
             id="typewriter"
-            class="text-md flex justify-center items-center py-5 tracking-widest leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
+            class="text-2xl flex justify-center items-center py-5 tracking-widest leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
           >
             hello world 👋
           </p>
