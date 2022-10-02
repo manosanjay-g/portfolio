@@ -75,12 +75,16 @@ const goToTop = () => {
             Designer
           </h3>
           <p
-            class="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
+            id="typewriter"
+            class="text-md flex justify-center items-center py-5 tracking-widest leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            adipisci mollitia quas ipsa recusandae, laborum illo architecto
-            eaque dolorum molestiae excepturi fugit itaque non eligendi a eius
-            dolor doloremque perspiciatis.
+            hello world
+            <img
+              src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/325/waving-hand_1f44b.png"
+              class="w-7 h-7 mx-3"
+              alt=""
+              srcset=""
+            />
           </p>
         </div>
         <div class="flex justify-center my-4">
@@ -274,7 +278,7 @@ const goToTop = () => {
               <h3 class="my-2">2020 Batch</h3>
             </div>
           </div>
-          <div>
+          <div class="hidden">
             <h1 class="text-3xl mb-6 mt-12 md:mt-0 font-bold">Experience</h1>
             <div
               class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4"
