@@ -37,7 +37,7 @@ const goToTop = () => {
     <main
       class="bg-white px-10 md:px-20 lg:px-40 pb-8 dark:bg-gray-900 transition-colors duration-350 text-black dark:text-white"
     >
-      <section class="min-h-screen">
+      <section class="">
         <!-- Navbar -->
         <nav class="py-10 flex justify-between items-center">
           <h1 class="text-xl font-semibold dark:text-white">
@@ -122,7 +122,7 @@ const goToTop = () => {
         </ul>
       </section>
 
-      <section class="">
+      <section class="mt-10">
         <div>
           <h3 class="text-3xl text-center py-1 font-bold">Skills</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
