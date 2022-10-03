@@ -33,8 +33,9 @@ const goToTop = () => {
 </script>
 
 <template>
-  <div :class="{ dark: darkMode }">
-    <main
+  <div id="wrapper" :class="{ dark: darkMode }">
+    <div
+      id="content"
       class="bg-white px-10 md:px-20 lg:px-40 pb-8 dark:bg-gray-900 transition-colors duration-350 text-black dark:text-white"
     >
       <section class="">
@@ -322,7 +323,7 @@ const goToTop = () => {
           <font-awesome-icon icon="fa-solid fa-arrow-up" />
         </button>
       </span>
-    </main>
+    </div>
   </div>
 </template>
 
