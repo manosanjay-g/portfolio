@@ -95,7 +95,7 @@ const goToTop = () => {
         </div>
         <!-- Social -->
         <ul
-          class="mt-9 text-xl flex justify-center gap-16 text-gray-600 dark:text-white"
+          class="mt-9 text-xl flex flex-wrap justify-center gap-16 text-gray-600 dark:text-white"
         >
           <li
             class="cursor-pointer text-pink-500 hover:scale-150 hover:-rotate-45 transform-gpu ease-in duration-300"
@@ -274,6 +274,56 @@ const goToTop = () => {
           </div>
         </div>
       </section>
+      <section class="mt-12">
+        <div>
+          <h3 class="text-3xl text-center py-1 font-bold">Projects</h3>
+          <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
+            <div
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-3xl dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+            >
+              <img
+                src="./assets/project 1.png"
+                class="w-auto h-auto justify-center mx-auto my-3 rounded-md"
+              />
+              <div>
+                <h2 class="font-bold text-2xl mb-3">Hall Booking</h2>
+                <div class="flex justify-center gap-1">
+                  <p>
+                    This website was designed for making the process of booking
+                    halls for events easier.It uses a recommendation algorithm
+                    for recommending the best hall for a given event.
+                  </p>
+                </div>
+                <div class="flex-row justify-center gap-1 mt-2">
+                  <h3 class="font-semibold text-lg">Tech Stack</h3>
+                  <ul class="flex flex-wrap mt-2 justify-center gap-1">
+                    <li
+                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      VueJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      NodeJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      ExpressJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      MongoDB
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="mt-16">
         <div class="text-center lg:flex lg:justify-around">
           <div>
@@ -299,16 +349,17 @@ const goToTop = () => {
               <h3 class="my-2">2020 Batch</h3>
             </div>
           </div>
-          <div class="hidden">
+          <div class="">
             <h1 class="text-3xl mb-6 mt-12 md:mt-0 font-bold">Experience</h1>
             <div
               class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
-              <h3 class="font-semibold my-2">Social Media Designer</h3>
-              <h3 class="text-gray-700 dark:text-gray-400 my-2 font-medium">
-                YUVA club at REC
-              </h3>
-              <h3 class="my-2">2022 - Present</h3>
+              <h3 class="font-semibold my-2">No experience</h3>
+
+              <img
+                src="./assets/Doge-Crying.jpg"
+                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
+              />
             </div>
           </div>
         </div>
