@@ -296,7 +296,7 @@ const goToTop = () => {
                 </div>
                 <div class="flex-row justify-center gap-1 mt-2">
                   <h3 class="font-semibold text-lg">Tech Stack</h3>
-                  <ul class="flex flex-wrap mt-2 justify-center gap-1">
+                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
                     <li
                       class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
