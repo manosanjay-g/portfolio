@@ -137,7 +137,7 @@ const goToTop = () => {
           <h3 class="text-3xl text-center py-1 font-bold">Skills</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
@@ -155,7 +155,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
@@ -172,7 +172,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
@@ -189,7 +189,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
@@ -206,7 +206,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
@@ -223,7 +223,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/node-js-3550841-2970426.png"
@@ -240,7 +240,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
@@ -256,7 +256,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png"
@@ -279,13 +279,13 @@ const goToTop = () => {
           <h3 class="text-3xl text-center py-1 font-bold">Projects</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-3xl dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-3xl dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
             >
               <img
                 src="./assets/project-1.png"
-                class="w-auto h-auto justify-center mx-auto my-3 rounded-md"
+                class="w-auto h justify-center mx-auto mb-3 rounded-t-md"
               />
-              <div>
+              <div class="py-2 px-9">
                 <h2 class="font-bold text-2xl mb-3">Hall Booking</h2>
                 <div class="flex justify-center gap-1">
                   <p>
@@ -298,22 +298,22 @@ const goToTop = () => {
                   <h3 class="font-semibold text-lg">Tech Stack</h3>
                   <ul class="flex flex-wrap mt-2 justify-center gap-1">
                     <li
-                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       VueJS
                     </li>
                     <li
-                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       NodeJS
                     </li>
                     <li
-                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       ExpressJS
                     </li>
                     <li
-                      class="border-2 border-teal-600 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       MongoDB
                     </li>
@@ -329,7 +329,7 @@ const goToTop = () => {
           <div>
             <h1 class="text-3xl mb-6 font-bold">Education</h1>
             <div
-              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
+              class="bg-gray-100 border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">
                 B.E Computer Science and Engineering
@@ -340,7 +340,7 @@ const goToTop = () => {
               <h3 class="my-2">2024 Batch</h3>
             </div>
             <div
-              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
+              class="bg-gray-100 border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">HSC and SSLC</h3>
               <h3 class="text-gray-700 dark:text-gray-400 my-2 font-medium">
@@ -352,7 +352,7 @@ const goToTop = () => {
           <div class="">
             <h1 class="text-3xl mb-6 mt-12 md:mt-0 font-bold">Experience</h1>
             <div
-              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
+              class="bg-gray-100 border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">No experience</h3>
 
