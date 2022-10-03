@@ -136,7 +136,7 @@ const goToTop = () => {
           <h3 class="text-3xl text-center py-1 font-bold">Skills</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
@@ -154,7 +154,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
@@ -171,7 +171,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
@@ -188,7 +188,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
@@ -205,7 +205,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
@@ -222,7 +222,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/node-js-3550841-2970426.png"
@@ -239,7 +239,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
@@ -255,7 +255,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png"
