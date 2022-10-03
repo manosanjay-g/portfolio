@@ -76,16 +76,17 @@ const goToTop = () => {
           </h3>
           <p
             id="typewriter"
-            class="text-2xl flex justify-center items-center py-5 tracking-widest leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
+            class="text-xl w-fit h-fit text-gray-600 flex justify-center items-center py-5 tracking-widest leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400"
           >
-            hello world 👋
+            A machine that turns <br />coffee into<br />
+            code.
           </p>
         </div>
         <div class="flex justify-center my-4">
           <img
             width="200"
             height="200"
-            class="rounded-full"
+            class="rounded-full border-teal-600 dark:border-teal-400 border-4"
             src="./assets/1657562739975.jpg"
             alt=""
             srcset=""
@@ -95,25 +96,33 @@ const goToTop = () => {
         <ul
           class="mt-9 text-xl flex justify-center gap-16 text-gray-600 dark:text-white"
         >
-          <li class="cursor-pointer text-pink-500">
+          <li
+            class="cursor-pointer text-pink-500 hover:scale-150 hover:-rotate-45 transform-gpu ease-in duration-300"
+          >
             <font-awesome-icon
               icon="fa-brands fa-instagram"
               @click="openLink('https://www.instagram.com/_manosanjay')"
             />
           </li>
-          <li class="cursor-pointer text-blue-500">
+          <li
+            class="cursor-pointer text-blue-500 hover:scale-150 hover:-rotate-45 transform-gpu ease-in duration-300"
+          >
             <font-awesome-icon
               icon="fa-brands fa-twitter"
               @click="openLink('https://twitter.com/_manosanjay')"
             />
           </li>
-          <li class="cursor-pointer text-blue-900 dark:text-white">
+          <li
+            class="cursor-pointer text-blue-900 dark:text-white hover:scale-150 hover:-rotate-45 transform-gpu ease-in duration-300"
+          >
             <font-awesome-icon
               icon="fa-brands fa-linkedin"
               @click="openLink('https://www.linkedin.com/in/manosanjay/')"
             />
           </li>
-          <li class="cursor-pointer">
+          <li
+            class="cursor-pointer hover:scale-150 hover:-rotate-45 transform-gpu ease-in duration-300"
+          >
             <font-awesome-icon
               icon="fa-brands fa-github"
               @click="openLink('https://github.com/manosanjay-g')"
@@ -122,12 +131,12 @@ const goToTop = () => {
         </ul>
       </section>
 
-      <section class="mt-10">
+      <section class="mt-12">
         <div>
           <h3 class="text-3xl text-center py-1 font-bold">Skills</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
@@ -145,7 +154,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
@@ -162,7 +171,24 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
+            >
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
+                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
+              />
+              <div>
+                <h2 class="font-bold text-2xl mb-3">Tailwind</h2>
+                <div class="flex justify-center gap-1">
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                  <font-awesome-icon icon="fa-solid fa-star" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
@@ -179,7 +205,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
@@ -196,7 +222,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/node-js-3550841-2970426.png"
@@ -213,7 +239,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
@@ -229,7 +255,7 @@ const goToTop = () => {
               </div>
             </div>
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-110 ease-in duration-300"
             >
               <img
                 src="https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png"
@@ -252,7 +278,7 @@ const goToTop = () => {
           <div>
             <h1 class="text-3xl mb-6 font-bold">Education</h1>
             <div
-              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4"
+              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">
                 B.E Computer Science and Engineering
@@ -263,7 +289,7 @@ const goToTop = () => {
               <h3 class="my-2">2024 Batch</h3>
             </div>
             <div
-              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4"
+              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">HSC and SSLC</h3>
               <h3 class="text-gray-700 dark:text-gray-400 my-2 font-medium">
@@ -275,7 +301,7 @@ const goToTop = () => {
           <div class="hidden">
             <h1 class="text-3xl mb-6 mt-12 md:mt-0 font-bold">Experience</h1>
             <div
-              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4"
+              class="border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">Social Media Designer</h3>
               <h3 class="text-gray-700 dark:text-gray-400 my-2 font-medium">
