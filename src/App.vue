@@ -282,7 +282,7 @@ const goToTop = () => {
               class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-3xl dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
             >
               <img
-                src="./assets/project 1.png"
+                src="./assets/project-1.png"
                 class="w-auto h-auto justify-center mx-auto my-3 rounded-md"
               />
               <div>
