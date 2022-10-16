@@ -88,7 +88,7 @@ const goToTop = () => {
             width="200"
             height="200"
             class="rounded-full border-teal-600 dark:border-teal-400 border-4"
-            src="./assets/1657562739975.jpg"
+            src="./assets/main_image.jpg"
             alt=""
             srcset=""
           />
