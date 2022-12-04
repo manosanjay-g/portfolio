@@ -102,7 +102,7 @@ const goToTop = () => {
           >
             <font-awesome-icon
               icon="fa-brands fa-instagram"
-              @click="openLink('https://www.instagram.com/_manosanjay')"
+              @click="openLink('https://www.instagram.com/_manosxnjay')"
             />
           </li>
           <li
