@@ -102,7 +102,7 @@ const goToTop = () => {
           >
             <font-awesome-icon
               icon="fa-brands fa-instagram"
-              @click="openLink('https://www.instagram.com/_manosxnjay')"
+              @click="openLink('https://www.instagram.com/manosxnjay')"
             />
           </li>
           <li
@@ -110,7 +110,7 @@ const goToTop = () => {
           >
             <font-awesome-icon
               icon="fa-brands fa-twitter"
-              @click="openLink('https://twitter.com/_manosanjay')"
+              @click="openLink('https://twitter.com/manosxnjay')"
             />
           </li>
           <li
