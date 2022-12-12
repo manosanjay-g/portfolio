@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
-import { faMoon } from "@fortawesome/fontawesome-free";
+import SkillComponent from "./components/SkillComponent.vue";
+import ProjectComponent from "./components/ProjectComponent.vue";
 const darkMode = ref("false");
 const visibility = ref("false");
 const toggleDarkMode = () => {
@@ -25,6 +26,72 @@ const openLink = (url) => {
 const downloadResume = () => {
   alert("IDHULA ONNUM ILLA,KEELA POTRU 🚶‍♂️");
 };
+
+const skills = ref([
+  {
+    name: "HTML",
+    imageSrc: "https://cdn-icons-png.flaticon.com/512/174/174854.png",
+  },
+  {
+    name: "CSS",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
+  },
+  {
+    name: "Tailwind CSS",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
+  },
+  {
+    name: "JS",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  },
+  {
+    name: "VueJS",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
+  },
+  {
+    name: "NodeJS",
+    imageSrc:
+      "https://cdn.iconscout.com/icon/free/png-256/node-js-3550841-2970426.png",
+  },
+  {
+    name: "Figma",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+  },
+  {
+    name: "Flutter",
+    imageSrc:
+      "https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png",
+  },
+]);
+
+const projects = ref([
+  {
+    name: "Hall Booking",
+    imageSrc: "../assets/project-1.png",
+    desc: "This website was designed for making the process of booking halls for events easier.It uses a recommendation algorithm for recommending the best hall for a given event.",
+    githubLink: "https://github.com/manosanjay-g/hallbooking-app",
+    techStack: ["VueJS", "NodeJS", "ExpressJS", "MongoDB"],
+  },
+  {
+    name: "NFC Smart Health Card (MediRX)",
+    imageSrc: "../assets/medirx.png",
+    desc: "This is a platform for hospitals and patients to store and access their medical records with ease.It is achieved by using a NFC smart card that is given by the hospitals to the patient when they register through an hospital.",
+    githubLink: "https://github.com/manosanjay-g/nfc_smart_card",
+    techStack: ["VueJS", "NodeJS", "ExpressJS", "MongoDB"],
+  },
+  {
+    name: "Student Portal",
+    imageSrc: "../assets/student_portal.png",
+    desc: " This website acts as a platform for students and colleges.It provides academic and personal information about the student. Colleges can also release the result of the student.Students can also view their attendance record in this portal.",
+    githubLink: "https://github.com/manosanjay-g/Student-Portal",
+    techStack: ["VueJS", "NodeJS", "ExpressJS", "MongoDB"],
+  },
+]);
 
 // When the user clicks on the button, scroll to the top of the document
 const goToTop = () => {
@@ -136,94 +203,12 @@ const goToTop = () => {
         <div>
           <h3 class="text-3xl text-center py-1 font-bold">Skills</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://cdn-icons-png.flaticon.com/512/174/174854.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">HTML</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">CSS</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">Tailwind</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">JavaScript</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">VueJS</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-256/node-js-3550841-2970426.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">NodeJS</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">Figma</h2>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
-            >
-              <img
-                src="https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png"
-                class="w-40 h-40 justify-center mx-auto my-3 rounded-md"
-              />
-              <div>
-                <h2 class="font-bold text-2xl mb-3">Flutter</h2>
-              </div>
-            </div>
+            <SkillComponent
+              v-for="skill in skills"
+              :name="skill.name"
+              :image-src="skill.imageSrc"
+              :key="skill.name + skill.imageSrc"
+            />
           </div>
         </div>
       </section>
@@ -231,157 +216,15 @@ const goToTop = () => {
         <div>
           <h3 class="text-3xl text-center py-1 font-bold">Projects</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
-            >
-              <img
-                src="./assets/project-1.png"
-                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
-              />
-              <div class="py-2 px-9">
-                <h2 class="font-bold text-2xl mb-3">Hall Booking</h2>
-                <div class="flex justify-center gap-1 mb-4">
-                  <p>
-                    This website was designed for making the process of booking
-                    halls for events easier.It uses a recommendation algorithm
-                    for recommending the best hall for a given event.
-                  </p>
-                </div>
-                <a
-                  href="https://github.com/manosanjay-g/hallbooking-app"
-                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                >
-                  Github
-                </a>
-                <div class="flex-row justify-center gap-1 mt-4">
-                  <h3 class="font-semibold text-lg">Tech Stack</h3>
-                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      VueJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      NodeJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      ExpressJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      MongoDB
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
-            >
-              <img
-                src="./assets/medirx.png"
-                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
-              />
-              <div class="py-2 px-9">
-                <h2 class="font-bold text-2xl mb-3">
-                  NFC Smart Health Card (Medirx)
-                </h2>
-                <div class="flex justify-center gap-1 mb-4">
-                  <p>
-                    This is a platform for hospitals and patients to store and
-                    access their medical records with ease.It is achieved by
-                    using a NFC smart card that is given by the hospitals to the
-                    patient when they register through an hospital.
-                  </p>
-                </div>
-                <a
-                  href="https://github.com/manosanjay-g/nfc_smart_card"
-                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                >
-                  Github
-                </a>
-                <div class="flex-row justify-center gap-1 mt-4">
-                  <h3 class="font-semibold text-lg">Tech Stack</h3>
-                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      VueJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      NodeJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      ExpressJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      MongoDB
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
-            >
-              <img
-                src="./assets/student_portal.png"
-                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
-              />
-              <div class="py-2 px-9">
-                <h2 class="font-bold text-2xl mb-3">Student Portal</h2>
-                <div class="flex justify-center gap-1 mb-4">
-                  <p>
-                    This website acts as a platform for students and colleges.It
-                    provides academic and personal information about the student
-                    Colleges can also release the result of the student.Students
-                    can also view their attendance record in this portal.
-                  </p>
-                </div>
-                <a
-                  href="https://github.com/manosanjay-g/Student-Portal"
-                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                >
-                  Github
-                </a>
-                <div class="flex-row justify-center gap-1 mt-4">
-                  <h3 class="font-semibold text-lg">Tech Stack</h3>
-                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      VueJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      NodeJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      ExpressJS
-                    </li>
-                    <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
-                    >
-                      MongoDB
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <ProjectComponent
+              v-for="project in projects"
+              :key="project.name + project.githubLink"
+              :name="project.name"
+              :desc="project.desc"
+              :github-link="project.githubLink"
+              :image-src="project.imageSrc"
+              :tech-stack="project.techStack"
+            />
             <!-- <div
               class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
             >
