@@ -279,41 +279,47 @@ const goToTop = () => {
           <h3 class="text-3xl text-center py-1 font-bold">Projects</h3>
           <div class="flex-wrap justify-center lg:flex gap-10 mt-4">
             <div
-              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-3xl dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
             >
               <img
                 src="./assets/project-1.png"
-                class="w-auto h justify-center mx-auto mb-3 rounded-t-md"
+                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
               />
               <div class="py-2 px-9">
                 <h2 class="font-bold text-2xl mb-3">Hall Booking</h2>
-                <div class="flex justify-center gap-1">
+                <div class="flex justify-center gap-1 mb-4">
                   <p>
                     This website was designed for making the process of booking
                     halls for events easier.It uses a recommendation algorithm
                     for recommending the best hall for a given event.
                   </p>
                 </div>
-                <div class="flex-row justify-center gap-1 mt-2">
+                <a
+                  href="https://github.com/manosanjay-g/hallbooking-app"
+                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                >
+                  Github
+                </a>
+                <div class="flex-row justify-center gap-1 mt-4">
                   <h3 class="font-semibold text-lg">Tech Stack</h3>
                   <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
                     <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       VueJS
                     </li>
                     <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       NodeJS
                     </li>
                     <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       ExpressJS
                     </li>
                     <li
-                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-400 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
                     >
                       MongoDB
                     </li>
@@ -321,6 +327,160 @@ const goToTop = () => {
                 </div>
               </div>
             </div>
+            <div
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
+            >
+              <img
+                src="./assets/medirx.png"
+                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
+              />
+              <div class="py-2 px-9">
+                <h2 class="font-bold text-2xl mb-3">
+                  NFC Smart Health Card (Medirx)
+                </h2>
+                <div class="flex justify-center gap-1 mb-4">
+                  <p>
+                    This is a platform for hospitals and patients to store and
+                    access their medical records with ease.It is achieved by
+                    using a NFC smart card that is given by the hospitals to the
+                    patient when they register through an hospital.
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/manosanjay-g/nfc_smart_card"
+                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                >
+                  Github
+                </a>
+                <div class="flex-row justify-center gap-1 mt-4">
+                  <h3 class="font-semibold text-lg">Tech Stack</h3>
+                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      VueJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      NodeJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      ExpressJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      MongoDB
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
+            >
+              <img
+                src="./assets/student_portal.png"
+                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
+              />
+              <div class="py-2 px-9">
+                <h2 class="font-bold text-2xl mb-3">Student Portal</h2>
+                <div class="flex justify-center gap-1 mb-4">
+                  <p>
+                    This website acts as a platform for students and colleges.It
+                    provides academic and personal information about the student
+                    Colleges can also release the result of the student.Students
+                    can also view their attendance record in this portal.
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/manosanjay-g/Student-Portal"
+                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                >
+                  Github
+                </a>
+                <div class="flex-row justify-center gap-1 mt-4">
+                  <h3 class="font-semibold text-lg">Tech Stack</h3>
+                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      VueJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      NodeJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      ExpressJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      MongoDB
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- <div
+              class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-md dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
+            >
+              <img
+                src="./assets/project-1.png"
+                class="w-auto justify-center mx-auto mb-3 rounded-t-md"
+              />
+              <div class="py-2 px-9">
+                <h2 class="font-bold text-2xl mb-3">
+                  Grocery Management System
+                </h2>
+                <div class="flex justify-center gap-1 mb-4">
+                  <p>
+                    This is a website for grocery store owners.It helps the
+                    owners to manage their groceries and their prices.Owners can
+                    also add their employees to the system so that they can have
+                    limited editing access
+                  </p>
+                </div>
+                <a
+                  href="https://github.com/manosanjay-g/grocery_system"
+                  class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                >
+                  Github
+                </a>
+                <div class="flex-row justify-center gap-1 mt-4">
+                  <h3 class="font-semibold text-lg">Tech Stack</h3>
+                  <ul class="flex flex-wrap mt-2 mb-3 justify-center gap-1">
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      VueJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      NodeJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      ExpressJS
+                    </li>
+                    <li
+                      class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+                    >
+                      MongoDB
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </section>
