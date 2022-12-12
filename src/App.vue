@@ -145,13 +145,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">HTML</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -163,12 +156,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">CSS</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -180,12 +167,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">Tailwind</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -197,12 +178,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">JavaScript</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -214,12 +189,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">VueJS</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -231,12 +200,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">NodeJS</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -248,11 +211,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">Figma</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
             <div
@@ -264,11 +222,6 @@ const goToTop = () => {
               />
               <div>
                 <h2 class="font-bold text-2xl mb-3">Flutter</h2>
-                <div class="flex justify-center gap-1">
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                  <font-awesome-icon icon="fa-solid fa-star" />
-                </div>
               </div>
             </div>
           </div>
