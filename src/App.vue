@@ -48,6 +48,11 @@ const skills = ref([
       "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
   },
   {
+    name: "ReactJS",
+    imageSrc:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  },
+  {
     name: "VueJS",
     imageSrc:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -61,11 +66,6 @@ const skills = ref([
     name: "Figma",
     imageSrc:
       "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-  },
-  {
-    name: "Flutter",
-    imageSrc:
-      "https://cdn.iconscout.com/icon/free/png-256/flutter-3629369-3032362.png",
   },
 ]);
 
