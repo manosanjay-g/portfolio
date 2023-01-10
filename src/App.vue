@@ -72,21 +72,21 @@ const skills = ref([
 const projects = ref([
   {
     name: "Hall Booking",
-    imageSrc: "../assets/project-1.png",
+    imageSrc: "project-1.png",
     desc: "This website was designed for making the process of booking halls for events easier.It uses a recommendation algorithm for recommending the best hall for a given event.",
     githubLink: "https://github.com/manosanjay-g/hallbooking-app",
     techStack: ["VueJS", "NodeJS", "ExpressJS", "MongoDB"],
   },
   {
     name: "NFC Smart Health Card (MediRX)",
-    imageSrc: "../assets/medirx.png",
+    imageSrc: "medirx.png",
     desc: "This is a platform for hospitals and patients to store and access their medical records with ease.It is achieved by using a NFC smart card that is given by the hospitals to the patient when they register through an hospital.",
     githubLink: "https://github.com/manosanjay-g/nfc_smart_card",
     techStack: ["VueJS", "NodeJS", "ExpressJS", "MongoDB"],
   },
   {
     name: "Student Portal",
-    imageSrc: "../assets/student_portal.png",
+    imageSrc: "student_portal.png",
     desc: " This website acts as a platform for students and colleges.It provides academic and personal information about the student. Colleges can also release the result of the student.Students can also view their attendance record in this portal.",
     githubLink: "https://github.com/manosanjay-g/Student-Portal",
     techStack: ["VueJS", "NodeJS", "ExpressJS", "MongoDB"],

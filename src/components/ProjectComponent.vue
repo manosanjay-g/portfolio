@@ -9,7 +9,7 @@ const props = defineProps([
   "imageSrc",
 ]);
 
-const imageURL = new URL(props.imageSrc, import.meta.url).href;
+const imageURL = new URL(`../assets/${props.imageSrc}`, import.meta.url).href;
 </script>
 
 <template>
