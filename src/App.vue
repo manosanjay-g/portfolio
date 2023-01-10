@@ -285,7 +285,7 @@ const goToTop = () => {
           <div>
             <h1 class="text-3xl mb-6 font-bold">Education</h1>
             <div
-              class="bg-gray-100 border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
+              class="border-2 shadow-lg dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">
                 B.E Computer Science and Engineering
@@ -296,7 +296,7 @@ const goToTop = () => {
               <h3 class="my-2">2024 Batch</h3>
             </div>
             <div
-              class="bg-gray-100 border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
+              class="border-2 shadow-lg dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">HSC and SSLC</h3>
               <h3 class="text-gray-700 dark:text-gray-400 my-2 font-medium">
@@ -308,7 +308,7 @@ const goToTop = () => {
           <div class="">
             <h1 class="text-3xl mb-6 mt-12 md:mt-0 font-bold">Experience</h1>
             <div
-              class="bg-gray-100 border-4 dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
+              class="border-2 shadow-lg dark:border rounded-lg dark:bg-gray-800 px-6 py-4 my-4 hover:scale-105 ease-in duration-300"
             >
               <h3 class="font-semibold my-2">No experience</h3>
 

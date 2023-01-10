@@ -15,7 +15,7 @@ const imageURL = new URL(`../assets/${props.imageSrc}`, import.meta.url).href;
 <template>
   <div id="project_component">
     <div
-      class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xl dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300 bg-gray-100"
+      class="flex-row shadow-lg border-2 text-center mt-4 cursor-default lg:max-w-xl dark:bg-gray-800 dark:border rounded-lg hover:scale-105 ease-in duration-300"
     >
       <img
         :src="imageURL"
@@ -30,7 +30,7 @@ const imageURL = new URL(`../assets/${props.imageSrc}`, import.meta.url).href;
         </div>
         <a
           :href="props.githubLink"
-          class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+          class="border-2 transition-colors duration-300 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
         >
           Github
         </a>
@@ -40,7 +40,7 @@ const imageURL = new URL(`../assets/${props.imageSrc}`, import.meta.url).href;
             <li
               v-for="technology in props.techStack"
               :key="technology + props.name"
-              class="border-2 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
+              class="border-2 transition-colors duration-300 border-teal-600 bg-white dark:bg-gray-800 hover:bg-teal-600 dark:hover:bg-teal-700 hover:text-white dark:border-teal-400 w-fit py-1 px-2 rounded-full"
             >
               {{ technology }}
             </li>

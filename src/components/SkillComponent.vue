@@ -5,7 +5,7 @@ const props = defineProps(["imageSrc", "name"]);
 <template>
   <div
     id="skill_component"
-    class="flex-row border-4 text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 bg-gray-100 hover:scale-105 ease-in duration-300"
+    class="flex-row border-2 shadow-lg text-center mt-4 cursor-default lg:max-w-xs dark:bg-gray-800 dark:border rounded-lg py-6 px-9 hover:scale-105 ease-in duration-300"
   >
     <img
       :src="props.imageSrc"
