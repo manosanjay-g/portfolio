@@ -17,13 +17,11 @@ const imageURL = new URL(`../assets/${props.imageSrc}`, import.meta.url).href;
     <div
       class="flex flex-col shadow-lg border-2 text-center mt-4 cursor-default lg:max-w-xl dark:bg-gray-800 dark:border-4  rounded-md hover:scale-105 ease-in duration-300"
     >
-      <div class="bg-red-500" id="image-container">
         <img
         id="image-src"
         :src="imageURL"
         class=""
       />
-      </div>
       <div class="py-2 px-9 bg-gray-800">
         <h2 class="font-bold text-2xl mb-3">{{ props.name }}</h2>
         <div class="flex justify-center gap-1 mb-4  ">
@@ -54,11 +52,5 @@ const imageURL = new URL(`../assets/${props.imageSrc}`, import.meta.url).href;
   </div>
 </template>
 <style>
-#image-src{
-  object-fit:cover;
-}
-#image-container{
-  width: auto;
-  height: 14em;
-}
+
 </style>
