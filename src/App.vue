@@ -4,9 +4,6 @@ import SkillComponent from "./components/SkillComponent.vue";
 import ProjectComponent from "./components/ProjectComponent.vue";
 const darkMode = ref("false");
 const visibility = ref("false");
-const toggleDarkMode = () => {
-  darkMode.value = !darkMode.value;
-};
 
 window.onscroll = () => {
   if (
@@ -24,7 +21,10 @@ const openLink = (url) => {
 };
 
 const downloadResume = () => {
-  alert("IDHULA ONNUM ILLA,KEELA POTRU 🚶‍♂️");
+  window.open(
+    "https://docs.google.com/document/d/1NhWiDmxZwmZRDKB44XJYDbTE56XJWT9wsol8jUJjbHQ/edit?usp=drive_link",
+    "_blank"
+  );
 };
 
 const skills = ref([
@@ -113,12 +113,6 @@ const goToTop = () => {
             manosanjay
           </h1>
           <ul class="flex items-center">
-            <li
-              @click="toggleDarkMode"
-              class="cursor-pointer text-xl dark:text-white"
-            >
-              <font-awesome-icon icon="fa-solid fa-moon" />
-            </li>
             <li>
               <h1
                 class="text-xl bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 cursor-pointer"
